@@ -38,9 +38,16 @@ ArrayList<String> arrayListString = new ArrayList<String>();
 		}
 		//7. Print only the Strings that have the letter 'e' in them.
 		for (int i = 0; i < arrayListString.size(); i++) {
-			if(arrayListString.get(i)== ) {
-				
+			if( arrayListString.get(i).charAt(i)== 'e' ) {
+				System.out.println(arrayListString.get(i));
 			}
 		}
+	/*	String s = "hello";
+		for(int i = 0; i < s.length(); i++) {
+			if(s.charAt(i) == 'h') {
+				System.out.println(s.charAt(i));
+			}
+		}
+		*/
 	}
 }
