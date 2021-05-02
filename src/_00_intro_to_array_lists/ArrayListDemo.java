@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class ArrayListDemo {
 	public static void main(String[] args) {
 		System.out.println("Here's an ArrayList of Strings:\n");
-		//Creating an ArrayList of Strings
+		//Creating an ArrayList of StringsNumber 
 		ArrayList<String> names = new ArrayList<String>();
 		
-		//Adding items to our list
+		//Adding items to our listNumber 
 		names.add("Jan");
 		names.add("Sara");
 		names.add("Fred");
